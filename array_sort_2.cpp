@@ -16,7 +16,7 @@ int main(){
     }
     //init sorted array
     float sorted_array[20];
-    //if user_array[i] > user_array[j], increase "greater than count" by 1. "greater than count" becomes position of user_array[i] within new array.
+    //if user_array[i] > user_array[j], increase "greater than count" by 1. If user_array[i] > user_array[j] and i>j, increase "greater than count" by 1. "greater than count" becomes position of user_array[i] within new array.
     for (int i=0; i<len; i++){
         int gt_count = 0;
         for(int j=0; j<len; j++){
